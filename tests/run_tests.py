@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # SPDX-FileCopyrightText: 2019 Damien P. George
 #
 # SPDX-License-Identifier: MIT
