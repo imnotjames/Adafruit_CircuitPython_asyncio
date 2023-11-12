@@ -74,6 +74,7 @@ def run_testcase(suite: str, testcase: str):
 
     if actual_output != expected_output:
         print("FAIL %s" % qtest)
+        os.system('diff -u {0}.exp {0}.out'.format(qtest))
         return False
 
     print("pass %s" % qtest)
