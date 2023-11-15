@@ -14,3 +14,13 @@ jobs:
       uses: adafruit/workflows-circuitpython-libs/build@main
       with:
         package-prefix: "asyncio"
+
+  test-v8-2-7:
+    uses: ./.github/workflows/run-tests.yml
+    with:
+      cp-version: 8.2.7
+
+  test-v9-0-0-alpha4:
+    uses: ./.github/workflows/run-tests.yml
+    with:
+      cp-version: 9.0.0-alpha.4
