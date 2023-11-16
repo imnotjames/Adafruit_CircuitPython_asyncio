@@ -27,6 +27,9 @@ _attrs = {
     "start_server": "stream",
     "StreamReader": "stream",
     "StreamWriter": "stream",
+    "Timeout": "timeout",
+    "timeout": "timeout",
+    "timeout_at": "timeout",
 }
 
 # Lazy loader, effectively does:
